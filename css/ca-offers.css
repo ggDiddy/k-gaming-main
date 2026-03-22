@@ -528,15 +528,17 @@
     padding: 0.75rem 1.25rem !important;
     font-size: 0.88rem !important;
     border-radius: 12px !important;
-    background: linear-gradient(135deg, #cc0000, #990000) !important;
-    border-color: transparent !important;
-    box-shadow: 0 4px 16px rgba(204, 0, 0, 0.3) !important;
-    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+    background: linear-gradient(135deg, rgba(165, 28, 28, 0.82), rgba(95, 8, 8, 0.82)) !important;
+    border: 1px solid rgba(190, 55, 55, 0.22) !important;
+    box-shadow: 0 3px 12px rgba(150, 20, 20, 0.18) !important;
+    color: rgba(255, 225, 225, 0.95) !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease !important;
 }
 
 .ca-btn-claim:hover {
     transform: translateY(-2px) !important;
-    box-shadow: 0 8px 24px rgba(204, 0, 0, 0.4) !important;
+    background: linear-gradient(135deg, rgba(185, 38, 38, 0.92), rgba(110, 12, 12, 0.92)) !important;
+    box-shadow: 0 6px 20px rgba(155, 25, 25, 0.28) !important;
 }
 
 .ca-btn-review {
