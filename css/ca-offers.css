@@ -1,0 +1,749 @@
+/* ============================================================
+   KONCEPT GAMING — CA OFFER WALL
+   Canada-specific styles
+   ============================================================ */
+
+/* CA Nav badge */
+.ca-nav-badge {
+    background: linear-gradient(135deg, rgba(255, 50, 50, 0.12), rgba(220, 0, 0, 0.08));
+    border-radius: 20px;
+    padding: 0.35rem 0.9rem !important;
+    border: 1px solid rgba(220, 0, 0, 0.15) !important;
+    color: #cc0000 !important;
+    font-weight: 700 !important;
+}
+
+.ca-nav-badge.active,
+.ca-nav-badge:hover {
+    background: linear-gradient(135deg, #cc0000, #990000) !important;
+    color: white !important;
+    border-color: transparent !important;
+}
+
+/* ============================================================
+   CA HERO
+   ============================================================ */
+.ca-hero {
+    background: linear-gradient(145deg, #0d0505 0%, #2a0a0a 30%, #3d1010 55%, #1a0505 80%, #060606 100%);
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 5rem 0 4rem;
+}
+
+.ca-hero-bg {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px);
+    background-size: 55px 55px;
+}
+
+.ca-hero-orb {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    filter: blur(80px);
+}
+
+.ca-orb-1 {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(204, 0, 0, 0.18) 0%, transparent 70%);
+    top: -100px;
+    right: -100px;
+    animation: heroOrb1 8s ease-in-out infinite alternate;
+}
+
+.ca-orb-2 {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(243, 156, 18, 0.1) 0%, transparent 70%);
+    bottom: -100px;
+    left: 5%;
+    animation: heroOrb2 10s ease-in-out infinite alternate;
+}
+
+@keyframes heroOrb1 {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(-30px, 30px) scale(1.1); }
+}
+
+@keyframes heroOrb2 {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(20px, -20px) scale(1.05); }
+}
+
+.ca-hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.ca-geo-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, rgba(204, 0, 0, 0.25), rgba(153, 0, 0, 0.15));
+    border: 1px solid rgba(204, 0, 0, 0.35);
+    border-radius: 30px;
+    padding: 0.45rem 1.2rem;
+    font-size: 0.78rem;
+    font-weight: 800;
+    color: #ff6b6b;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 1.5rem;
+    backdrop-filter: blur(10px);
+}
+
+.ca-hero h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    color: white;
+    line-height: 1.15;
+    letter-spacing: -1.5px;
+    margin-bottom: 1.25rem;
+    text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+}
+
+.ca-hero-sub {
+    font-size: clamp(1rem, 2.2vw, 1.18rem);
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 640px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.7;
+}
+
+/* Hero Stats */
+.ca-hero-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    padding: 1.5rem 2rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ca-stat { text-align: center; }
+
+.ca-stat-num {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, #ff6b6b, #f39c12);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.1;
+    margin-bottom: 0.2rem;
+}
+
+.ca-stat-lbl {
+    font-size: 0.72rem;
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.ca-stat-divider {
+    width: 1px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Trust badges */
+.ca-trust-badges {
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.ca-trust-badges span {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+}
+
+/* ============================================================
+   FILTERS BAR
+   ============================================================ */
+.ca-filters-bar {
+    background: white;
+    border-bottom: 1px solid #edf2f4;
+    position: sticky;
+    top: 56px;
+    z-index: 90;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.ca-filters {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.9rem 0;
+    flex-wrap: wrap;
+}
+
+.filter-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #7a8c94;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    white-space: nowrap;
+}
+
+.filter-group {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.ca-filter {
+    padding: 0.45rem 1rem;
+    border-radius: 20px;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    background: white;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #445560;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.ca-filter:hover {
+    border-color: #cc0000;
+    color: #cc0000;
+}
+
+.ca-filter.active {
+    background: linear-gradient(135deg, #cc0000, #990000);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 3px 12px rgba(204, 0, 0, 0.3);
+}
+
+.ca-sort {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+.ca-sort label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #7a8c94;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.ca-sort select {
+    padding: 0.4rem 0.75rem;
+    border-radius: 8px;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #0B3037;
+    background: white;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23445560'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.6rem center;
+    padding-right: 1.8rem;
+}
+
+/* ============================================================
+   OFFER WALL CARDS
+   ============================================================ */
+.ca-offer-wall {
+    background: #f2f5f7;
+    padding: 3rem 0 4rem !important;
+}
+
+.ca-offer-wall .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.ca-offer-card {
+    background: white;
+    border-radius: 20px;
+    padding: 1.75rem 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.06);
+    display: grid;
+    grid-template-columns: 38px 180px 200px 1fr 1fr 140px 180px;
+    gap: 1.5rem;
+    align-items: center;
+    transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    animation: fadeInUp 0.5s ease both;
+}
+
+.ca-offer-card::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 4px;
+    background: #e0e8ec;
+    border-radius: 20px 0 0 20px;
+    transition: background 0.3s ease;
+}
+
+.ca-offer-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.1);
+    border-color: rgba(204, 0, 0, 0.12);
+}
+
+.ca-offer-card:hover::before {
+    background: linear-gradient(180deg, #cc0000, #f39c12);
+}
+
+/* Top ranked styling */
+.ca-offer-card.rank-1 {
+    border: 1.5px solid rgba(243, 156, 18, 0.3);
+    box-shadow: 0 4px 28px rgba(243, 156, 18, 0.1);
+}
+
+.ca-offer-card.rank-1::before {
+    background: linear-gradient(180deg, #f39c12, #e67e22);
+}
+
+.ca-offer-card.rank-2::before {
+    background: linear-gradient(180deg, #95a5a6, #7f8c8d);
+}
+
+.ca-offer-card.rank-3::before {
+    background: linear-gradient(180deg, #cd7f32, #a0522d);
+}
+
+/* Rank badge */
+.ca-rank {
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: #7a8c94;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.rank-1 .ca-rank { color: #d4a017; }
+.rank-2 .ca-rank { color: #8e9eab; }
+.rank-3 .ca-rank { color: #a0522d; }
+
+/* New badge */
+.ca-new-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 0.65rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #cc0000, #990000);
+    color: white;
+    box-shadow: 0 2px 8px rgba(204, 0, 0, 0.3);
+}
+
+/* Logo column */
+.ca-offer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.ca-offer-logo img {
+    width: 72px;
+    height: 56px;
+    object-fit: contain;
+    border-radius: 10px;
+    border: 1.5px solid rgba(0, 0, 0, 0.06);
+    padding: 4px;
+    background: #f8fafc;
+}
+
+.ca-logo-name {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #0B3037;
+    text-align: center;
+}
+
+/* Bonus column */
+.ca-offer-bonus {
+    text-align: left;
+}
+
+.ca-bonus-main {
+    font-size: 1.6rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, #cc0000, #f39c12);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.1;
+    margin-bottom: 0.25rem;
+}
+
+.ca-bonus-type {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #445560;
+    margin-bottom: 0.4rem;
+}
+
+.ca-bonus-code {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    font-family: monospace;
+    letter-spacing: 1px;
+    color: #0B3037;
+    background: rgba(11, 48, 55, 0.06);
+    border: 1px dashed rgba(11, 48, 55, 0.15);
+    padding: 0.25rem 0.6rem;
+    border-radius: 6px;
+}
+
+/* Details column */
+.ca-offer-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.ca-detail-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.82rem;
+}
+
+.ca-detail-icon { font-size: 0.85rem; width: 18px; text-align: center; }
+
+.ca-detail-label {
+    color: #7a8c94;
+    font-weight: 500;
+    flex: 1;
+}
+
+.ca-detail-value {
+    font-weight: 700;
+    color: #0B3037;
+    text-align: right;
+}
+
+/* Tags column */
+.ca-offer-tags {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.ca-tag {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.25rem 0.65rem;
+    border-radius: 20px;
+    background: rgba(11, 48, 55, 0.06);
+    color: #445560;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.interac-tag {
+    background: linear-gradient(135deg, rgba(204, 0, 0, 0.1), rgba(153, 0, 0, 0.06));
+    color: #cc0000;
+    border: 1px solid rgba(204, 0, 0, 0.15);
+    font-weight: 700;
+}
+
+/* Rating column */
+.ca-offer-rating {
+    text-align: center;
+}
+
+.ca-stars {
+    color: #f39c12;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.ca-rating-val {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #0B3037;
+}
+
+/* Actions column */
+.ca-offer-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.ca-btn-claim {
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem 1.25rem !important;
+    font-size: 0.88rem !important;
+    border-radius: 12px !important;
+    background: linear-gradient(135deg, #cc0000, #990000) !important;
+    border-color: transparent !important;
+    box-shadow: 0 4px 16px rgba(204, 0, 0, 0.3) !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.ca-btn-claim:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 24px rgba(204, 0, 0, 0.4) !important;
+}
+
+.ca-btn-review {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #7a8c94;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    text-align: center;
+}
+
+.ca-btn-review:hover { color: #cc0000; }
+
+/* ============================================================
+   PAYMENT STRIP
+   ============================================================ */
+.ca-payments-strip {
+    background: linear-gradient(135deg, #0B3037, #134E5E);
+    padding: 2.5rem 0;
+}
+
+.ca-payments-strip h3 {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.88rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.ca-payment-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.ca-payment-pill {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 0.45rem 1rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.2s ease;
+    cursor: default;
+}
+
+.ca-payment-pill:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+}
+
+/* ============================================================
+   PROVINCE GUIDE
+   ============================================================ */
+.ca-provinces {
+    background: #f2f5f7;
+    padding: 5rem 0 !important;
+}
+
+.ca-province-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.25rem;
+}
+
+.ca-province-card {
+    background: white;
+    border-radius: 18px;
+    padding: 1.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ca-province-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.09);
+}
+
+.ca-province-card.highlight-province {
+    border: 1.5px solid rgba(204, 0, 0, 0.2);
+    background: linear-gradient(145deg, white, #fff8f8);
+}
+
+.ca-province-flag {
+    font-size: 2.25rem;
+    margin-bottom: 0.75rem;
+    display: block;
+}
+
+.ca-province-card h4 {
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    color: #0B3037 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.ca-province-status {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding: 0.2rem 0.65rem;
+    border-radius: 20px;
+    margin-bottom: 0.75rem;
+}
+
+.ca-province-status.legal {
+    background: rgba(46, 204, 113, 0.1);
+    color: #27ae60;
+    border: 1px solid rgba(46, 204, 113, 0.2);
+}
+
+.ca-province-status.partial {
+    background: rgba(243, 156, 18, 0.1);
+    color: #d68910;
+    border: 1px solid rgba(243, 156, 18, 0.2);
+}
+
+.ca-province-card p {
+    font-size: 0.85rem !important;
+    color: #6b7c82 !important;
+    line-height: 1.6 !important;
+    margin-bottom: 0.75rem !important;
+}
+
+.ca-province-count {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #cc0000;
+    background: rgba(204, 0, 0, 0.06);
+    border-radius: 20px;
+    padding: 0.25rem 0.7rem;
+    display: inline-block;
+}
+
+/* ============================================================
+   CA FAQ
+   ============================================================ */
+.ca-faq {
+    background: white;
+    padding: 5rem 0 !important;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 1100px) {
+    .ca-offer-card {
+        grid-template-columns: 38px 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .ca-offer-tags { flex-direction: row; flex-wrap: wrap; }
+    .ca-offer-actions { flex-direction: row; }
+    .ca-btn-claim { width: auto; }
+}
+
+@media (max-width: 768px) {
+    .ca-hero { padding: 4rem 0 3rem; }
+    .ca-hero h1 { font-size: 1.8rem; }
+
+    .ca-offer-card {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+
+    .ca-offer-logo {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .ca-rank {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        font-size: 0.7rem;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+        padding: 0.15rem 0.4rem;
+    }
+
+    .ca-offer-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .ca-offer-tags { flex-direction: row; flex-wrap: wrap; }
+    .ca-offer-actions { flex-direction: row; }
+
+    .ca-filters { gap: 0.5rem; }
+    .ca-sort { margin-left: 0; }
+
+    .ca-hero-stats { gap: 1rem; padding: 1.25rem; }
+    .ca-stat-divider { display: none; }
+
+    .ca-province-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .ca-province-grid { grid-template-columns: 1fr; }
+    .ca-offer-details { grid-template-columns: 1fr; }
+}
