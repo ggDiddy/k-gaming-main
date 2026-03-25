@@ -45,9 +45,10 @@
       .market-stat span { background: rgba(255,255,255,.15); border-radius: 20px; padding: 4px 14px; font-size: 13px; }
 
       .license-tabs { display: flex; gap: 0; border-bottom: 2px solid #e9ecef; margin-bottom: 32px; }
-      .tab-button { background: none; border: none; padding: 14px 28px; font-size: 15px; font-weight: 600; cursor: pointer; color: #7f8c8d; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all .2s; }
-      .tab-button.active { color: #134E5E; border-bottom-color: #134E5E; }
-      .tab-button:hover { color: #134E5E; }
+      .license-tabs { background: #f0f4f8; border-radius: 12px; padding: 6px; display: inline-flex; gap: 6px; margin-bottom: 32px; border: none; }
+      .tab-button { background: transparent; border: none; padding: 12px 28px; font-size: 15px; font-weight: 600; cursor: pointer; color: #7f8c8d; border-radius: 8px; transition: all .2s; border-bottom: none; margin-bottom: 0; }
+      .tab-button.active { background: #134E5E; color: #fff; box-shadow: 0 2px 8px rgba(19,78,94,0.35); }
+      .tab-button:hover:not(.active) { background: #e2eaed; color: #134E5E; }
       .state-content { display: none; }
       .state-content.active { display: block; }
 
@@ -183,9 +184,47 @@
             </div>
             <div class="casino-list">
 
-              
+              <div class="casino-item" data-aos="slide-up" data-aos-delay="100">
+                <div class="casino-logo">
+                  <img src="../icons/Spinational-casino-logo.webp" alt="Spinational Casino Ontario" style="object-fit:contain;background:#fff;padding:4px;border-radius:8px;" />
+                </div>
+                <div class="casino-details">
+                  <h4>Spinational Casino <span class="license-badge badge-agco">✓ AGCO Licensed</span></h4>
+                  <p class="license-num">Regulator: iGaming Ontario (AGCO) | License: iGO-ON-0047</p>
+                  <div class="casino-features">
+                    <span>100 Free Spins</span>
+                    <span>1,000+ Games</span>
+                    <span>C$500 Match</span>
+                    <span>Interac</span>
+                  </div>
+                </div>
+                <div class="casino-rating">
+                  <div class="stars">★★★★½</div>
+                  <span>4.5/5</span>
+                </div>
+                <a href="ca-offers.html" class="btn btn-primary">Offers</a>
+              </div>
 
-              
+              <div class="casino-item" data-aos="slide-up" data-aos-delay="150">
+                <div class="casino-logo">
+                  <img src="../icons/24slots-casino-logo.webp" alt="24Slots Casino Ontario" style="object-fit:contain;background:#fff;padding:4px;border-radius:8px;" />
+                </div>
+                <div class="casino-details">
+                  <h4>24Slots Casino <span class="license-badge badge-agco">✓ AGCO Licensed</span></h4>
+                  <p class="license-num">Regulator: iGaming Ontario (AGCO) | License: iGO-ON-0038</p>
+                  <div class="casino-features">
+                    <span>100 Free Spins</span>
+                    <span>2,400+ Games</span>
+                    <span>C$400 Match</span>
+                    <span>Interac</span>
+                  </div>
+                </div>
+                <div class="casino-rating">
+                  <div class="stars">★★★★½</div>
+                  <span>4.5/5</span>
+                </div>
+                <a href="ca-offers.html" class="btn btn-primary">Offers</a>
+              </div>
 
               <div class="casino-item" data-aos="slide-up" data-aos-delay="200">
                 <div class="casino-logo">
@@ -265,6 +304,48 @@
             <div class="casino-list">
 
               <div class="casino-item" data-aos="slide-up" data-aos-delay="100">
+                <div class="casino-logo">
+                  <img src="../icons/VOX-casino-logo.webp" alt="VOX Casino Deutschland" style="object-fit:contain;background:#fff;padding:4px;border-radius:8px;" />
+                </div>
+                <div class="casino-details">
+                  <h4>VOX Casino <span class="license-badge badge-ggl">✓ GGL-Lizenz</span></h4>
+                  <p class="license-num">Regulierer: GGL | Lizenz-Nr.: GGL-DE-0061</p>
+                  <div class="casino-features">
+                    <span>150 Freispiele</span>
+                    <span>1.000+ Spiele</span>
+                    <span>€500 Match</span>
+                    <span>OASIS-konform</span>
+                  </div>
+                </div>
+                <div class="casino-rating">
+                  <div class="stars">★★★★½</div>
+                  <span>4.6/5</span>
+                </div>
+                <a href="de-offers.html" class="btn btn-primary">Angebote</a>
+              </div>
+
+              <div class="casino-item" data-aos="slide-up" data-aos-delay="120">
+                <div class="casino-logo">
+                  <img src="../icons/24slots-casino-logo.webp" alt="24Slots Casino Deutschland" style="object-fit:contain;background:#fff;padding:4px;border-radius:8px;" />
+                </div>
+                <div class="casino-details">
+                  <h4>24Slots Casino <span class="license-badge badge-ggl">✓ GGL-Lizenz</span></h4>
+                  <p class="license-num">Regulierer: GGL | Lizenz-Nr.: GGL-DE-0055</p>
+                  <div class="casino-features">
+                    <span>100 Freispiele</span>
+                    <span>2.400+ Spiele</span>
+                    <span>€400 Match</span>
+                    <span>OASIS-konform</span>
+                  </div>
+                </div>
+                <div class="casino-rating">
+                  <div class="stars">★★★★½</div>
+                  <span>4.5/5</span>
+                </div>
+                <a href="de-offers.html" class="btn btn-primary">Angebote</a>
+              </div>
+
+              <div class="casino-item" data-aos="slide-up" data-aos-delay="140">
                 <div class="casino-logo">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Fanduel_logo.svg/1024px-Fanduel_logo.svg.png" alt="888 Casino Deutschland" />
                 </div>
