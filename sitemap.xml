@@ -5,7 +5,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://koncept-gaming.com/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/"/>
@@ -15,7 +15,7 @@
   <!-- CA Offers -->
   <url>
     <loc>https://koncept-gaming.com/pages/ca-offers/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/ca-offers/"/>
@@ -24,7 +24,7 @@
   <!-- No Deposit Bonuses -->
   <url>
     <loc>https://koncept-gaming.com/pages/no-deposit-bonuses/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/no-deposit-bonuses/"/>
@@ -33,7 +33,7 @@
   <!-- DE Offers -->
   <url>
     <loc>https://koncept-gaming.com/pages/de-offers/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="de-de" href="https://koncept-gaming.com/pages/de-offers/"/>
@@ -42,7 +42,7 @@
   <!-- Casino Reviews -->
   <url>
     <loc>https://koncept-gaming.com/pages/casino-reviews/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/casino-reviews/"/>
@@ -51,7 +51,7 @@
   <!-- Licensed Casinos -->
   <url>
     <loc>https://koncept-gaming.com/pages/licensed-casinos/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/licensed-casinos/"/>
@@ -60,7 +60,7 @@
   <!-- Payment Methods -->
   <url>
     <loc>https://koncept-gaming.com/pages/payment-methods/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/payment-methods/"/>
@@ -69,10 +69,50 @@
   <!-- Responsible Gambling -->
   <url>
     <loc>https://koncept-gaming.com/pages/responsible-gambling/</loc>
-    <lastmod>2026-03-20</lastmod>
+    <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/responsible-gambling/"/>
+  </url>
+
+  <!-- VOX Casino Review -->
+  <url>
+    <loc>https://koncept-gaming.com/pages/reviews/vox-casino-review/</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-de" href="https://koncept-gaming.com/pages/reviews/vox-casino-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koncept-gaming.com/pages/reviews/vox-casino-review/"/>
+  </url>
+
+  <!-- 24Slots Casino Review (DE) -->
+  <url>
+    <loc>https://koncept-gaming.com/pages/reviews/24slots-casino-review/</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-de" href="https://koncept-gaming.com/pages/reviews/24slots-casino-review/"/>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/reviews/24slots-casino-review-ca/"/>
+  </url>
+
+  <!-- 24Slots Casino Review (CA) -->
+  <url>
+    <loc>https://koncept-gaming.com/pages/reviews/24slots-casino-review-ca/</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/reviews/24slots-casino-review-ca/"/>
+    <xhtml:link rel="alternate" hreflang="de-de" href="https://koncept-gaming.com/pages/reviews/24slots-casino-review/"/>
+  </url>
+
+  <!-- Spinational Casino Review -->
+  <url>
+    <loc>https://koncept-gaming.com/pages/reviews/spinational-casino-review/</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/reviews/spinational-casino-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koncept-gaming.com/pages/reviews/spinational-casino-review/"/>
   </url>
 
 </urlset>
