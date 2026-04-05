@@ -14,65 +14,65 @@
 
   <!-- CA Offers -->
   <url>
-    <loc>https://koncept-gaming.com/pages/ca-offers.html</loc>
+    <loc>https://koncept-gaming.com/pages/ca-offers/</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/ca-offers.html"/>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/ca-offers/"/>
   </url>
 
   <!-- No Deposit Bonuses -->
   <url>
-    <loc>https://koncept-gaming.com/pages/no-deposit-bonuses.html</loc>
+    <loc>https://koncept-gaming.com/pages/no-deposit-bonuses/</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/no-deposit-bonuses.html"/>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/no-deposit-bonuses/"/>
   </url>
 
   <!-- DE Offers -->
   <url>
-    <loc>https://koncept-gaming.com/pages/de-offers.html</loc>
+    <loc>https://koncept-gaming.com/pages/de-offers/</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="de-de" href="https://koncept-gaming.com/pages/de-offers.html"/>
+    <xhtml:link rel="alternate" hreflang="de-de" href="https://koncept-gaming.com/pages/de-offers/"/>
   </url>
 
   <!-- Casino Reviews -->
   <url>
-    <loc>https://koncept-gaming.com/pages/casino-reviews.html</loc>
+    <loc>https://koncept-gaming.com/pages/casino-reviews/</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/casino-reviews.html"/>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/casino-reviews/"/>
   </url>
 
   <!-- Licensed Casinos -->
   <url>
-    <loc>https://koncept-gaming.com/pages/licensed-casinos.html</loc>
+    <loc>https://koncept-gaming.com/pages/licensed-casinos/</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/licensed-casinos.html"/>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/licensed-casinos/"/>
   </url>
 
   <!-- Payment Methods -->
   <url>
-    <loc>https://koncept-gaming.com/pages/payment-methods.html</loc>
+    <loc>https://koncept-gaming.com/pages/payment-methods/</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/payment-methods.html"/>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/payment-methods/"/>
   </url>
 
   <!-- Responsible Gambling -->
   <url>
-    <loc>https://koncept-gaming.com/pages/responsible-gambling.html</loc>
+    <loc>https://koncept-gaming.com/pages/responsible-gambling/</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/responsible-gambling.html"/>
+    <xhtml:link rel="alternate" hreflang="en-ca" href="https://koncept-gaming.com/pages/responsible-gambling/"/>
   </url>
 
 </urlset>
