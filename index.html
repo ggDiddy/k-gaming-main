@@ -901,37 +901,5 @@
 
     <script src="js/app.js"></script>
     <script src="js/geo.js" defer></script>
-    <script>
-    (function () {
-      var sections = Array.from(document.querySelectorAll('section'));
-      var snapTimer = null;
-      var isSnapping = false;
-
-      function snapToNearest() {
-        if (isSnapping) return;
-        var scrollY = window.scrollY;
-        var viewH  = window.innerHeight;
-        var best   = null;
-        var bestD  = Infinity;
-
-        sections.forEach(function (sec) {
-          var top = sec.getBoundingClientRect().top + scrollY;
-          var d   = Math.abs(top - scrollY);
-          if (d < bestD) { bestD = d; best = top; }
-        });
-
-        if (best === null || Math.abs(scrollY - best) < 4) return;
-
-        isSnapping = true;
-        window.scrollTo({ top: best, behavior: 'smooth' });
-        setTimeout(function () { isSnapping = false; }, 900);
-      }
-
-      window.addEventListener('scroll', function () {
-        clearTimeout(snapTimer);
-        snapTimer = setTimeout(snapToNearest, 120);
-      }, { passive: true });
-    })();
-    </script>
   </body>
 </html>
